@@ -1,0 +1,15 @@
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\bin\Debug\YTU.EFDB.FinalProject.exe.config
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\bin\Debug\YTU.EFDB.FinalProject.exe
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\bin\Debug\YTU.EFDB.FinalProject.pdb
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\bin\Debug\EntityFramework.dll
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\bin\Debug\EntityFramework.SqlServer.dll
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\bin\Debug\EntityFramework.xml
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\bin\Debug\EntityFramework.SqlServer.xml
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\obj\Debug\YTU.EFDB.FinalProject.csprojAssemblyReference.cache
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\obj\Debug\YTU.EFDB.FinalProject.Form1.resources
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\obj\Debug\YTU.EFDB.FinalProject.Properties.Resources.resources
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\obj\Debug\YTU.EFDB.FinalProject.csproj.GenerateResource.cache
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\obj\Debug\YTU.EFDB.FinalProject.csproj.CopyComplete
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\obj\Debug\YTU.EFDB.FinalProject.exe
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\obj\Debug\YTU.EFDB.FinalProject.pdb
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FinalProject\obj\Debug\YTU.EFDB.FinalProject.mainForm.resources

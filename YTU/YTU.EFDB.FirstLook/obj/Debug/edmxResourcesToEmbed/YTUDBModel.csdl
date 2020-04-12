@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YTUEFContext" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="CustomerCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="CustomerProductList">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int32" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="Amount" Type="Int32" />
+    <Property Name="ListPrice" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProductNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Color" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="SafetyStockLevel" Type="Int32" />
+    <Property Name="StandartCost" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="ListPrice" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="Size" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="YTUEFEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customer" EntityType="YTUEFContext.Customer" />
+    <EntitySet Name="CustomerProductLists" EntityType="Self.CustomerProductList" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <FunctionImport Name="addNewCustomerProductList">
+      <Parameter Name="CustomerId" Mode="In" Type="Int32" />
+      <Parameter Name="ProductId" Mode="In" Type="Int32" />
+      <Parameter Name="Amount" Mode="In" Type="Int32" />
+      <Parameter Name="ListPrice" Mode="In" Type="Decimal" />
+      <Parameter Name="CreateDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="deleteCustomerProductList">
+      <Parameter Name="CustomerId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="getAllCustomers" ReturnType="Collection(YTUEFContext.getAllCustomers_Result)" />
+    <FunctionImport Name="getCustomerById" ReturnType="Collection(YTUEFContext.getCustomerById_Result)">
+      <Parameter Name="customerID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="CustomerHistories" EntityType="YTUEFContext.CustomerHistory" />
+  </EntityContainer>
+  <ComplexType Name="getAllCustomers_Result">
+    <Property Type="Int32" Name="CustomerID" Nullable="false" />
+    <Property Type="String" Name="CustomerCode" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="FirstName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="getCustomerById_Result">
+    <Property Type="Int32" Name="CustomerID" Nullable="false" />
+    <Property Type="String" Name="CustomerCode" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="FirstName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <EntityType Name="CustomerHistory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="productID" Type="Int32" />
+    <Property Name="amount" Type="Int32" />
+    <Property Name="stateCode" Type="Int32" />
+    <Property Name="createDate" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

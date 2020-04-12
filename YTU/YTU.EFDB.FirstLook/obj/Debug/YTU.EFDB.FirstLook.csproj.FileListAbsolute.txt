@@ -1,0 +1,11 @@
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\bin\Debug\YTU.EFDB.FirstLook.exe.config
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\bin\Debug\YTU.EFDB.FirstLook.exe
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\bin\Debug\YTU.EFDB.FirstLook.pdb
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\bin\Debug\EntityFramework.dll
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\bin\Debug\EntityFramework.SqlServer.dll
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\bin\Debug\EntityFramework.xml
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\bin\Debug\EntityFramework.SqlServer.xml
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\obj\Debug\YTU.EFDB.FirstLook.csprojAssemblyReference.cache
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\obj\Debug\YTU.EFDB.FirstLook.csproj.CopyComplete
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\obj\Debug\YTU.EFDB.FirstLook.exe
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.EFDB.FirstLook\obj\Debug\YTU.EFDB.FirstLook.pdb

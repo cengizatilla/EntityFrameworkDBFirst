@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YTUEFContextStoreContainer" CdmEntityContainer="YTUEFEntities">
+    <EntitySetMapping Name="Customer">
+      <EntityTypeMapping TypeName="YTUEFContext.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerCode" ColumnName="CustomerCode" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerProductLists">
+      <EntityTypeMapping TypeName="YTUEFContext.CustomerProductList">
+        <MappingFragment StoreEntitySet="CustomerProductList">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="ListPrice" ColumnName="ListPrice" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="YTUEFContext.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProductNumber" ColumnName="ProductNumber" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="SafetyStockLevel" ColumnName="SafetyStockLevel" />
+          <ScalarProperty Name="StandartCost" ColumnName="StandartCost" />
+          <ScalarProperty Name="ListPrice" ColumnName="ListPrice" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="addNewCustomerProductList" FunctionName="YTUEFContext.Store.addNewCustomerProductList" />
+    <FunctionImportMapping FunctionImportName="deleteCustomerProductList" FunctionName="YTUEFContext.Store.deleteCustomerProductList" />
+    <FunctionImportMapping FunctionImportName="getAllCustomers" FunctionName="YTUEFContext.Store.getAllCustomers">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="YTUEFContext.getAllCustomers_Result">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerCode" ColumnName="CustomerCode" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="getCustomerById" FunctionName="YTUEFContext.Store.getCustomerById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="YTUEFContext.getCustomerById_Result">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerCode" ColumnName="CustomerCode" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="CustomerHistories">
+      <EntityTypeMapping TypeName="YTUEFContext.CustomerHistory">
+        <MappingFragment StoreEntitySet="CustomerHistory">
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+          <ScalarProperty Name="stateCode" ColumnName="stateCode" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

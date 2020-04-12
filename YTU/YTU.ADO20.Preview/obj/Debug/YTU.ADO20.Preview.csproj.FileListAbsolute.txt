@@ -1,0 +1,6 @@
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.ADO20.Preview\bin\Debug\YTU.ADO20.Preview.exe.config
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.ADO20.Preview\bin\Debug\YTU.ADO20.Preview.exe
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.ADO20.Preview\bin\Debug\YTU.ADO20.Preview.pdb
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.ADO20.Preview\obj\Debug\YTU.ADO20.Preview.csprojAssemblyReference.cache
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.ADO20.Preview\obj\Debug\YTU.ADO20.Preview.exe
+D:\Egitim Paketleri\YTU -  EntityFramework Database First - EvdeKal Turkiye\SourceCode\YTU\YTU.ADO20.Preview\obj\Debug\YTU.ADO20.Preview.pdb

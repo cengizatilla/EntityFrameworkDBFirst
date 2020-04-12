@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YTUProjectModelStoreContainer" CdmEntityContainer="YTUProjectEntities">
+    <EntitySetMapping Name="CustomerCompanies">
+      <EntityTypeMapping TypeName="YTUProjectModel.CustomerCompany">
+        <MappingFragment StoreEntitySet="CustomerCompany">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SystemUserID" ColumnName="SystemUserID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="TelephoneNumberI" ColumnName="TelephoneNumberI" />
+          <ScalarProperty Name="TelephoneNumberII" ColumnName="TelephoneNumberII" />
+          <ScalarProperty Name="TelephoneNumberIII" ColumnName="TelephoneNumberIII" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="systemUsers">
+      <EntityTypeMapping TypeName="YTUProjectModel.systemUser">
+        <MappingFragment StoreEntitySet="systemUser">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Passwords" ColumnName="Passwords" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
